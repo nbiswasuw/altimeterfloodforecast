@@ -1,0 +1,38 @@
+Boundary generator of Altimetry based Flood Forecasting System of SASWE.
+Forecast Date for generating boundary: 2018-10-02
+Boundary generation started at: 2018-10-02 02:00:02
+Initializing variables and checking for necessary files ...
+Necessary files and folders checked and variables initiated successfully.
+Checking for latest Virtual Station file ...
+Latest JASON 3 Altimeter data available for Ganges River: JA3_IPN_2PdP097_079_20180929_091205_20180929_100818.zip
+Latest JASON 3 Altimeter data available for Brahmaputra River: JA3_IPN_2PdP097_053_20180928_085030_20180928_094643.zip
+Latest JASON 2 Altimeter data available for Ganges River: JA2_IPN_2PdP607_079_20180928_151201_20180928_160756.zip
+Latest JASON 2 Altimeter data available for Brahmaputra River: JA2_IPN_2PdP607_053_20180927_145802_20180927_155357.zip
+Latest Virtual Station file Selected. Downloading the selected file ...
+Latest downloaded file for Ganges: JA3_IPN_2PdP097_079_20180929_091205_20180929_100818.zip
+Latest downloaded file for Brahmaputra: JA3_IPN_2PdP097_053_20180928_085030_20180928_094643.zip
+Unzipping the latest virtual station files for both basins ...
+The selected virtual station file unzipped successfully.
+Virtual Station files are processing to get NC files ...
+Virtual Station selected for Ganges River: JA3079_2018-09-29.txt
+Virtual Station selected for Brahmaputra River: JA3053_2018-09-28.txt
+Virtual Station files are processed successfully.
+Generating forecasted Water Heights at Bahadurabad and Hardinge Bridge ...
+Forecasted Water Heights at Bahadurabad and Hardinge Bridge are generated successfully.
+Downloading in situ water level data from FFWC website ....
+In situ Water Level data from FFWC cannot be downloaded due to an error. Error: System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 202.4.96.72:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Bahadurabad Station ...
+Error occurred in boundary correction at Bahadurabad Station. Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Hardinge Bridge Station ...
+Hardinge Bridge and depended station's forecasts cannot be generated due to an error. Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SASWEForecast.Program.Main(String[] args)

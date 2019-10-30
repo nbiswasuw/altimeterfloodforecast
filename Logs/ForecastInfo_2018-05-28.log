@@ -1,0 +1,31 @@
+Boundary generator of Altimetry based Flood Forecasting System of SASWE.
+Forecast Date for generating boundary: 2018-05-28
+Boundary generation started at: 2018-05-28 02:00:01
+Initializing variables and checking for necessary files ...
+Necessary files and folders checked and variables initiated successfully.
+Checking for latest Virtual Station file ...
+Latest JASON 3 Altimeter data available for Ganges River: JA3_IPN_2PdP084_155_20180526_104334_20180526_113947.zip
+Latest JASON 3 Altimeter data available for Brahmaputra River: JA3_IPN_2PdP084_166_20180526_210156_20180526_215809.zip
+Latest JASON 2 Altimeter data available for Ganges River: JA2_IPN_2PdP532_079_20180524_210144_20180524_215740.zip
+Latest JASON 2 Altimeter data available for Brahmaputra River: JA2_IPN_2PdP532_053_20180523_204745_20180523_214341.zip
+Latest Virtual Station file Selected. Downloading the selected file ...
+Latest downloaded file for Ganges: JA3_IPN_2PdP084_155_20180526_104334_20180526_113947.zip
+Latest downloaded file for Brahmaputra: JA3_IPN_2PdP084_166_20180526_210156_20180526_215809.zip
+Unzipping the latest virtual station files for both basins ...
+The selected virtual station file unzipped successfully.
+Virtual Station files are processing to get NC files ...
+Virtual Station selected for Ganges River: JA3155_2018-05-26.txt
+Virtual Station selected for Brahmaputra River: JA3166_2018-05-26.txt
+Virtual Station files are processed successfully.
+Generating forecasted Water Heights at Bahadurabad and Hardinge Bridge ...
+Forecasted Water Heights at Bahadurabad and Hardinge Bridge are generated successfully.
+Downloading in situ water level data from FFWC website ....
+In situ Water Level data downloaded from FFWC website and SQL Database updated successfully.
+Correcting forecasted Water Heights at Bahadurabad Station ...
+Error occurred in boundary correction at Bahadurabad Station. Error: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Last[TSource](IEnumerable`1 source)
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Hardinge Bridge Station ...
+Hardinge Bridge and depended station's forecasts cannot be generated due to an error. Error: System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at SASWEForecast.Program.Main(String[] args)

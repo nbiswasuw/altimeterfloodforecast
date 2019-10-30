@@ -1,0 +1,31 @@
+Boundary generator of Altimetry based Flood Forecasting System of SASWE.
+Forecast Date for generating boundary: 2019-06-23
+Boundary generation started at: 2019-06-23 02:00:00
+Initializing variables and checking for necessary files ...
+Necessary files and folders checked and variables initiated successfully.
+Checking for latest Virtual Station file ...
+Latest JASON 3 Altimeter data available for Ganges River: JA3_IPN_2PdP124_014_20190621_133820_20190621_143433.zip
+Latest JASON 3 Altimeter data available for Brahmaputra River: JA3_IPN_2PdP123_242_20190620_131646_20190620_141259.zip
+Latest JASON 2 Altimeter data available for Ganges River: JA2_IPN_2PdP634_014_20190619_103427_20190619_113022.zip
+Latest JASON 2 Altimeter data available for Brahmaputra River: JA2_IPN_2PdP634_053_20190620_225525_20190620_235121.zip
+Latest Virtual Station file Selected. Downloading the selected file ...
+Latest downloaded file for Ganges: JA3_IPN_2PdP124_014_20190621_133820_20190621_143433.zip
+Latest downloaded file for Brahmaputra: JA3_IPN_2PdP123_242_20190620_131646_20190620_141259.zip
+Unzipping the latest virtual station files for both basins ...
+The selected virtual station file unzipped successfully.
+Virtual Station files are processing to get NC files ...
+Virtual Station selected for Ganges River: JA3014_2019-06-21.txt
+Virtual Station selected for Brahmaputra River: JA3242_2019-06-20.txt
+Virtual Station files are processed successfully.
+Generating forecasted Water Heights at Bahadurabad and Hardinge Bridge ...
+No Heights found with Backscatter greater than 30 dB for ganges, taken height corrsponding to Maximum BS.
+Forecasted Water Heights at Bahadurabad and Hardinge Bridge are generated successfully.
+Downloading in situ water level data from FFWC website ....
+In situ Water Level data from FFWC cannot be downloaded due to an error. Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Bahadurabad Station ...
+Error occurred in boundary correction at Bahadurabad Station. Error: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Last[TSource](IEnumerable`1 source)
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Hardinge Bridge Station ...
+Hardinge Bridge and depended station's forecasts generated successfully.

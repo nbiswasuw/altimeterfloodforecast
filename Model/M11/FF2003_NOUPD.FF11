@@ -1,0 +1,3028 @@
+// Created     : 2014-07-1 15:23:45
+// DLL id      : C:\PROGRA~1\COMMON~1\DHI\MikeZero\pfs2004.dll
+// PFS version : Aug 28 2005 15:11:56
+
+[MIKE11_FF]
+   [FORMAT_VERSION]
+      verno = 101
+   EndSect  // FORMAT_VERSION
+
+   [FORECAST]
+      FC_length = 192
+      FC_unit = 0
+      FC_update = true
+      [Accuracy]
+         Incl_acc = false
+         [Rainfall]
+            [Global_values]
+               GRF_upper = 0
+               GRF_lower = 0
+            EndSect  // Global_values
+
+            [Local_values]
+            EndSect  // Local_values
+
+         EndSect  // Rainfall
+
+         [Discharge]
+            [Global_values]
+               GQ_upper = 0
+               GQ_lower = 0
+            EndSect  // Global_values
+
+            [Local_values]
+            EndSect  // Local_values
+
+         EndSect  // Discharge
+
+         [Water_Level]
+            [Global_values]
+               GWL_upper = 0
+               GWL_lower = 0
+            EndSect  // Global_values
+
+            [Local_values]
+            EndSect  // Local_values
+
+         EndSect  // Water_Level
+
+         [Temperature]
+            [Global_values]
+               GT_upper = 0
+               GT_lower = 0
+            EndSect  // Global_values
+
+            [Local_values]
+            EndSect  // Local_values
+
+         EndSect  // Temperature
+
+      EndSect  // Accuracy
+
+      [Alternative_modes]
+         FC_multiple = true
+         Multiple_no = 1
+         Multiple_step = 24
+         FC_seasonal = false
+         Season_start = 1980
+         Season_end = 1990
+      EndSect  // Alternative_modes
+
+      [Forecast_locations]
+         [Station]
+            Station_name = 'Mohadevpur'
+            Datatype = 1
+            River_name = 'Atrai'
+            River_chainage = 3170
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Atrai'
+            Datatype = 1
+            River_name = 'Atrai'
+            River_chainage = 56587
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Naogaon'
+            Datatype = 1
+            River_name = 'L-Jamuna'
+            River_chainage = 12200
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Chakrahimpur'
+            Datatype = 1
+            River_name = 'Karatoya'
+            River_chainage = 53536
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Bogra'
+            Datatype = 1
+            River_name = 'LKaratoya'
+            River_chainage = 0
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Kaunia'
+            Datatype = 1
+            River_name = 'Teesta'
+            River_chainage = 79790
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Chilmari'
+            Datatype = 1
+            River_name = 'Jamuna'
+            River_chainage = 36100
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Bahadurabad'
+            Datatype = 1
+            River_name = 'Jamuna'
+            River_chainage = 84500
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Kazipur'
+            Datatype = 1
+            River_name = 'Jamuna'
+            River_chainage = 146000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Serajganj'
+            Datatype = 1
+            River_name = 'Jamuna'
+            River_chainage = 162500
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Porabari'
+            Datatype = 1
+            River_name = 'Jamuna'
+            River_chainage = 189000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Aricha'
+            Datatype = 1
+            River_name = 'Jamuna'
+            River_chainage = 227000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Jamalpur'
+            Datatype = 1
+            River_name = 'O_Bramaputra'
+            River_chainage = 63580
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Mymensingh'
+            Datatype = 1
+            River_name = 'O_Bramaputra'
+            River_chainage = 127500
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Nayarhat'
+            Datatype = 1
+            River_name = 'Bangshi'
+            River_chainage = 192000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Jagir'
+            Datatype = 1
+            River_name = 'Dhaleswari'
+            River_chainage = 66666.66
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Kalagachia'
+            Datatype = 1
+            River_name = 'Dhaleswari'
+            River_chainage = 178000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Taraghat'
+            Datatype = 1
+            River_name = 'Kaliganga'
+            River_chainage = 15000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Tongi'
+            Datatype = 1
+            River_name = 'Tongi_K'
+            River_chainage = 9000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Mirpur'
+            Datatype = 1
+            River_name = 'Turag'
+            River_chainage = 63750
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Dhaka'
+            Datatype = 1
+            River_name = 'Buriganga'
+            River_chainage = 29500
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Hariharpara'
+            Datatype = 1
+            River_name = 'Buriganga'
+            River_chainage = 40000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Demra'
+            Datatype = 1
+            River_name = 'Balu'
+            River_chainage = 26500
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Narayanganj'
+            Datatype = 1
+            River_name = 'Lakhya'
+            River_chainage = 61000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Rajshahi'
+            Datatype = 1
+            River_name = 'Ganges-Ext'
+            River_chainage = 45000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Hardinge-br'
+            Datatype = 1
+            River_name = 'Ganges'
+            River_chainage = 35250
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Talbaria'
+            Datatype = 1
+            River_name = 'Ganges'
+            River_chainage = 49000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Goalondo'
+            Datatype = 1
+            River_name = 'Jamuna'
+            River_chainage = 235650
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Bhagyakul'
+            Datatype = 1
+            River_name = 'Padma'
+            River_chainage = 54000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Mawa'
+            Datatype = 1
+            River_name = 'Padma'
+            River_chainage = 63000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Gorai-Rly-Bridge'
+            Datatype = 1
+            River_name = 'Gorai'
+            River_chainage = 12000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Kamarkhali'
+            Datatype = 1
+            River_name = 'Gorai'
+            River_chainage = 83200
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Sylhet'
+            Datatype = 1
+            River_name = 'Surma'
+            River_chainage = 68300
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Sunamganj'
+            Datatype = 1
+            River_name = 'Surma'
+            River_chainage = 160750
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Sheola'
+            Datatype = 1
+            River_name = 'Kushiyara'
+            River_chainage = 0
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Bhairab-bazar'
+            Datatype = 1
+            River_name = 'Upper_Meghna'
+            River_chainage = 27000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Baider-bazar'
+            Datatype = 1
+            River_name = 'Upper_Meghna'
+            River_chainage = 88575
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Meghna-bridge'
+            Datatype = 1
+            River_name = 'Upper_Meghna'
+            River_chainage = 95137
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Baghabari'
+            Datatype = 1
+            River_name = 'Atrai'
+            River_chainage = 167170
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Chanchkair'
+            Datatype = 1
+            River_name = 'Nandakuja'
+            River_chainage = 83020
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Chapai-Nawabganj'
+            Datatype = 1
+            River_name = 'Mohananda'
+            River_chainage = 45875
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Dewanganj'
+            Datatype = 1
+            River_name = 'Jamuna'
+            River_chainage = 84700
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Derai'
+            Datatype = 1
+            River_name = 'Oldsurma'
+            River_chainage = 9600
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Elashinghat'
+            Datatype = 1
+            River_name = 'Dhaleswari'
+            River_chainage = 8670
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Gaibandha'
+            Datatype = 1
+            River_name = 'Ghagot'
+            River_chainage = 132270
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Khaliajuri'
+            Datatype = 1
+            River_name = 'Baulai'
+            River_chainage = 55700
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Kurigram'
+            Datatype = 1
+            River_name = 'Dharla'
+            River_chainage = 30350
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Lakhpur'
+            Datatype = 1
+            River_name = 'Lakhya'
+            River_chainage = 52000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Markuli'
+            Datatype = 1
+            River_name = 'Kushiyara'
+            River_chainage = 132500
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Moulvi-Bazar'
+            Datatype = 1
+            River_name = 'Manu'
+            River_chainage = 35450
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Munshiganj'
+            Datatype = 1
+            River_name = 'Dhaleswari'
+            River_chainage = 170000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Narsingdi'
+            Datatype = 1
+            River_name = 'Arialkhan-NC'
+            River_chainage = 49000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Sariakandi'
+            Datatype = 1
+            River_name = 'Jamuna'
+            River_chainage = 134000
+            Danger_level = 0
+         EndSect  // Station
+
+         [Station]
+            Station_name = 'Sureswar'
+            Datatype = 1
+            River_name = 'Padma'
+            River_chainage = 88815
+            Danger_level = 0
+         EndSect  // Station
+
+      EndSect  // Forecast_locations
+
+      FC_save = true
+      FC_storage = 1
+   EndSect  // FORECAST
+
+   [BOUNDARY_ESTIMATES]
+      [Filelist]
+         [File]
+            Timeseries = 'c:\fw\Fwdata\ffwc\M11\RF-est\EST-NW-SOUTH.dfs0'
+            date = 2000, 9, 24, 10, 1, 12
+         EndSect  // File
+
+         [File]
+            Timeseries = 'c:\fw\Fwdata\ffwc\M11\RF-est\EST-SE.dfs0'
+            date = 2001, 4, 27, 13, 38, 43
+         EndSect  // File
+
+         [File]
+            Timeseries = 'c:\fw\Fwdata\ffwc\M11\RF-est\EST-NE-SOUTH.dfs0'
+            date = 2001, 4, 27, 13, 42, 10
+         EndSect  // File
+
+         [File]
+            Timeseries = 'c:\fw\Fwdata\ffwc\M11\RF-est\EST-NE-NORTH.dfs0'
+            date = 2001, 4, 27, 13, 42, 30
+         EndSect  // File
+
+         [File]
+            Timeseries = 'c:\fw\Fwdata\ffwc\M11\RF-est\EST-SC.dfs0'
+            date = 2001, 4, 27, 13, 48, 15
+         EndSect  // File
+
+         [File]
+            Timeseries = 'c:\fw\Fwdata\ffwc\M11\RF-est\EST-SW.dfs0'
+            date = 2001, 4, 27, 13, 49, 14
+         EndSect  // File
+
+         [File]
+            Timeseries = 'c:\fw\Fwdata\ffwc\M11\RF-est\EST-NC-NORTH.dfs0'
+            date = 2001, 4, 27, 13, 50, 12
+         EndSect  // File
+
+         [File]
+            Timeseries = 'c:\fw\Fwdata\ffwc\M11\RF-est\EST-NC-SOUTH.dfs0'
+            date = 2001, 4, 27, 13, 51, 51
+         EndSect  // File
+
+         [File]
+            Timeseries = 'c:\fw\Fwdata\ffwc\M11\RF-est\EST-NW-NORTH.dfs0'
+            date = 2001, 4, 27, 13, 53, 45
+         EndSect  // File
+
+      EndSect  // Filelist
+
+      [Setuplist]
+         [HD_Model]
+         EndSect  // HD_Model
+
+         [RR_Model]
+            [Condition]
+               Catchment_Name = 'NC-1'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-2'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-3'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-4'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-4A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-5'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-6'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-7'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-8'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-9'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-10'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-11'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-12'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-13'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-14'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-15'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-16'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-17'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-18'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NC-19'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NC-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NC North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-3'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-3A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-7'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-11A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-13A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-15'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-15A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-19'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-21'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-22'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-23'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-25'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-33'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-33A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-35'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-35A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-36'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-37'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-37A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-37B'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-40-IRRI'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-40-NOIRRI'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-46'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-47'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-47A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-48A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-51'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-51A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-52'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-52A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-54'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-57'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-58'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-59A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-59B'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-60'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-60A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-67'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-67A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-68'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NE-68A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-1'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-1A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-2'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-6'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-11'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-16A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-19A'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-19B'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-20'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-26'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-27'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-28'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-29'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-38'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-39'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-48'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NEX-53'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NE-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NE South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-1L'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-1M'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-1U'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-2L'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-2U'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-3'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-4'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-5'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-7'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-10'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-11'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-12L'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-12U'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-13'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-14'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-15'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-16L'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-16U'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-17'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-19'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-21'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-22'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-23'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-24'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-26'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-27'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-30'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-31'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-32L'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-32M'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-32U'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-33'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-34'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-35'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-38'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-39'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'NW-40'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-1'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-2'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-3'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-4'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-5'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-6'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-7'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-8'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-9'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-10'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-11'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-12'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-13'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-14'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SC-17'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SE-1'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SE.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SE', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SE-2'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SE.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SE', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-2'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-3'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-4'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-5'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-7'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-8'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-9'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-10'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-11'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-12'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-14'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-15'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-16'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-17'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-24'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-25'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'SW-26'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SW.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SW', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'CGAN-1'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'CGAN-2'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'CJAM-1'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-NORTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW North', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'CJAM-2'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'CJAM-3'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-NW-SOUTH.dfs0'
+               [TimeSeriesItems]
+                  Item = 'NW South', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'CMEG-1'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SE.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SE', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+            [Condition]
+               Catchment_Name = 'CPAD-1'
+               Data_Type = 0
+               TimeSeries = 'RF-est\EST-SC.dfs0'
+               [TimeSeriesItems]
+                  Item = 'SC', 1
+               EndSect  // TimeSeriesItems
+
+            EndSect  // Condition
+
+         EndSect  // RR_Model
+
+      EndSect  // Setuplist
+
+      Boundary_save = false
+   EndSect  // BOUNDARY_ESTIMATES
+
+   [UPDATE_SPECIFICATIONS]
+      [UpdateList]
+         [Update]
+            River_name = 'Jamuna'
+            River_chainage = 36100
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\CHILMARI-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'JAMUNA(36100.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Jamuna'
+            cor_first = 36100
+            cor_last = 36100
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Jamuna'
+            River_chainage = 84500
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\BAHADURABAD-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'JAMUNA(84500.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Jamuna'
+            cor_first = 84500
+            cor_last = 84500
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Jamuna'
+            River_chainage = 162500
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\SERAJGANJ-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'JAMUNA(162500.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Jamuna'
+            cor_first = 162500
+            cor_last = 162500
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Jamuna'
+            River_chainage = 235650
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\GOALONDO-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'JAMUNA(235650.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Jamuna'
+            cor_first = 235650
+            cor_last = 235650
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Ganges-ext'
+            River_chainage = 45000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\RAJSHAHI-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'GANGES-EXT(45000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Ganges-ext'
+            cor_first = 45000
+            cor_last = 45000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Ganges'
+            River_chainage = 35250
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\HARDINGE-RB-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'GANGES(35250.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Ganges'
+            cor_first = 35250
+            cor_last = 35250
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Padma'
+            River_chainage = 54000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\BHAGYAKUL-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'PADMA(54000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Padma'
+            cor_first = 54000
+            cor_last = 54000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'O_Bramaputra'
+            River_chainage = 63580
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\JAMALPUR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'O_BRAMAPUTRA(63580.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'O_Bramaputra'
+            cor_first = 63580
+            cor_last = 63580
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'O_Bramaputra'
+            River_chainage = 127500
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\MYMENSINGH-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'O_BRAMAPUTRA(127500.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'O_Bramaputra'
+            cor_first = 127500
+            cor_last = 127500
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Upper_Meghna'
+            River_chainage = 27000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\BHAIRABBAZAR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'UPPER_MEGHNA(27000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Upper_Meghna'
+            cor_first = 27000
+            cor_last = 27000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Gorai'
+            River_chainage = 12000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\GORAI-RB-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'GORAI(12000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Gorai'
+            cor_first = 12000
+            cor_last = 12000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Gorai'
+            River_chainage = 83200
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\KAMARKHALI-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'GORAI(83200.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Gorai'
+            cor_first = 83200
+            cor_last = 83200
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Surma'
+            River_chainage = 0
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\KANAIRGHAT-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'SURMA(0.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Surma'
+            cor_first = 0
+            cor_last = 0
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Surma'
+            River_chainage = 68300
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\SYLHET-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'SURMA(68300.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Surma'
+            cor_first = 68300
+            cor_last = 68300
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Surma'
+            River_chainage = 160750
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\SUNAMGANJ-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'SURMA(160750.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Surma'
+            cor_first = 160750
+            cor_last = 160750
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Kushiyara'
+            River_chainage = 0
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\SHEOLA-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'KUSHIYARA(0.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Kushiyara'
+            cor_first = 0
+            cor_last = 0
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Manu'
+            River_chainage = 37100
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\MOULVIBAZAR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'MANU(37100.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Manu'
+            cor_first = 37100
+            cor_last = 37100
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Mohananda'
+            River_chainage = 45875
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\C-NAWABGANJ-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'MOHANANDA(45875.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Mohananda'
+            cor_first = 45875
+            cor_last = 45875
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Turag'
+            River_chainage = 63750
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\MIRPUR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'TURAG(63750.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Turag'
+            cor_first = 63750
+            cor_last = 63750
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Buriganga'
+            River_chainage = 29500
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\DHAKA-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'BURIGANGA(29500.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Buriganga'
+            cor_first = 29500
+            cor_last = 29500
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Tongi_K'
+            River_chainage = 9000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\TONGI-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'TONGI_K(9000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Tongi_K'
+            cor_first = 9000
+            cor_last = 9000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Kaliganga'
+            River_chainage = 15000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\TARAGHAT-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'KALIGANGA(15000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'kaliganga'
+            cor_first = 15000
+            cor_last = 15000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Arialkhan'
+            River_chainage = 53000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\MADARIPUR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'ARIALKHAN(53000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Arialkhan'
+            cor_first = 53000
+            cor_last = 53000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Uatrai'
+            River_chainage = 141500
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\BHUSIRBANDAR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'UATRAI(141500.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Uatrai'
+            cor_first = 141500
+            cor_last = 141500
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Atrai'
+            River_chainage = 3170
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\MOHADEVPUR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'ATRAI(3170.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Atrai'
+            cor_first = 3170
+            cor_last = 3170
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Balu'
+            River_chainage = 26700
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\DEMRA-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'BALU(26500.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Balu'
+            cor_first = 26500
+            cor_last = 26500
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Kangsha'
+            River_chainage = 62000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\JARIAJANJAIL-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'KANGSHA(62000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Kangsha'
+            cor_first = 62000
+            cor_last = 62000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'L-Jamuna'
+            River_chainage = 12200
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\NAOGAON-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'L-JAMUNA(12200.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'L-Jamuna'
+            cor_first = 12200
+            cor_last = 12200
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Kushiyara'
+            River_chainage = 91000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\SHERPUR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'KUSHIYARA(91000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Kushiyara'
+            cor_first = 91000
+            cor_last = 91000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Dhaleswari'
+            River_chainage = 72750
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\JAGIR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'DHALESWARI(66666.66)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Dhaleswari'
+            cor_first = 72750
+            cor_last = 72750
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Karatoya'
+            River_chainage = 53536
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\CHAKRAHIMPUR-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'KARATOYA(53536.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Karatoya'
+            cor_first = 53536
+            cor_last = 53536
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Ich-Jamuna'
+            River_chainage = 59000
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\PHULBARI-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'ICH-JAMUNA(59000.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Ich-Jamuna'
+            cor_first = 59000
+            cor_last = 59000
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Khowai'
+            River_chainage = 18500
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\HABIGANJ-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'KHOWAI(18500.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Khowai'
+            cor_first = 18500
+            cor_last = 18500
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+         [Update]
+            River_name = 'Teesta'
+            River_chainage = 79790
+            datatype = 1
+            TimeSeries = 'HDUpdateTS\KAUNIA-H.dfs0'
+            [TimeSeriesItems]
+               Item = 'TEESTA(79790.00)', 1
+            EndSect  // TimeSeriesItems
+
+            method = 1
+            no_iterations = 7
+            cor_river = 'Teesta'
+            cor_first = 79790
+            cor_last = 79790
+            cor_adjust = 1
+            cor_frequency = 6
+            max_phase = 0
+            AP = 168
+            TAP = 5000
+            TFP = 5000
+            Alpha = 0.001
+            Peak = 0
+            update_order = 1
+            Exclude = true
+         EndSect  // Update
+
+      EndSect  // UpdateList
+
+   EndSect  // UPDATE_SPECIFICATIONS
+
+   [Rating_curves]
+      [RatingList]
+      EndSect  // RatingList
+
+   EndSect  // Rating_curves
+
+EndSect  // MIKE11_FF
+

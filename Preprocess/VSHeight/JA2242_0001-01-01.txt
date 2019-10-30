@@ -1,0 +1,1 @@
+Lat(D)	Lon(D)	H(m)	BS(dB)

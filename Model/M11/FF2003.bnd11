@@ -1,0 +1,2360 @@
+// Created     : 2014-10-28 14:27:41
+// DLL id      : C:\PROGRA~1\COMMON~1\DHI\MikeZero\pfs2004.dll
+// PFS version : Aug 28 2005 15:11:56
+
+[BndCondition]
+   Comment = ''
+   [BndCndArray]
+      [BndItem]
+         DescType = 0, 1, 'BANAR', 37000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'DEONAI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'KHIRO', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'SUTIA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'KAORAID', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'BALU', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'BANGSHI', 37000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'DADBHANGA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'ACTIVE_CHELA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\LOUR-CHELA.dfs0|, 0, 1, 'LOUR-CHELA', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'A_PIYAN', 6000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\S'GHAT-JAFF-Q.dfs0|, 0, 1, 'S''GHAT-JAFF', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'BARAK', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\A'SHID-BARAK-Q.dfs0|, 0, 1, 'A''SHID-BARAK', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'CHILLAKHALI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'DHALAGANG', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\LOUR-DHALA.dfs0|, 0, 1, 'LOUR-DHALA', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'DHALAI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\MANU-DHALAI-Q.dfs0|, 0, 1, 'MANU-DHALAI', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'JADUKA_LB', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 2, 4, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'JAFFLONG', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\S'GHAT-JAFF-Q.dfs0|, 0, 1, 'S''GHAT-JAFF', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'JHALUKHALI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\LOUR-JHALU.dfs0|, 0, 1, 'LOUR-JHALU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'JURI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, 'KUSHIY_RB', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 2, 4, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'LUBHACHARA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 5, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'LUNGLABIJNA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'Manu', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\MANU-RB-Q.dfs0|, 0.1, 1, 'MANU-RB', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'MOGRA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 2, 4, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'NAWAGANG', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\LOUR-NAWA.dfs0|, 0, 1, 'LOUR-NAWA', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'NITAI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'SARIGOWAIN', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\SARIGHAT-Q.dfs0|, 0, 1, 'SARIGHAT', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'SARIGO_RB', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 2, 4, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'SHIBGANJDHAL', 6500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\DURGAPUR-Q.dfs0|, 0, 1, 'DURGAPUR', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'SONAIBARDAL', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\A'SHID-SONAI-Q.dfs0|, 0, 1, 'A''SHID-SONAI', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'SUTANG', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'SUTANG_R014', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'UP_KHOWAI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 2, 4, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'BHUGAI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\NAKUGAON.dfs0|, 0, 1, 'NAKUGAON', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'JADUKATA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\LOURERGORH.dfs0|, 0, 1, 'LOURERGORH', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'SURMA_RB', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1, 4, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'BURITEESTA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1, 6, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'DHARLA', 21500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Kurigram.dfs0|, 0, 1, 'Kurigram', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'ICH-JAMUNA', 29500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1, 6, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'KHARKHARIA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1, 6, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'NAOTARA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1, 6, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'PUNARBHABA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 3, 7, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'PUNARBHABA', 50000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Dinajpur.dfs0|, 0, 1, 'Dinajpur', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'TEESTA', 13500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Dalia.dfs0|, 0, 1, 'Dalia', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'TULSHIGANGA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 10, 3, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'UKARATOYA', 41500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Panchagarh.dfs0|, 0, 1, 'Panchagarh', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'JAMUNA', 8000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Noonkhawa.dfs0|, 0, 1, 'Noonkhawa', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'AKHIRA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 10, 3, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'ALAI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Gaibanda.dfs0|, 0, 1, 'Gaibanda', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'CJAMUNESWARI', 108516, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Badarganj.dfs0|, 0, 1, 'Badarganj', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'GHAGOT', 132270, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Gaibanda.dfs0|, 0, 1, 'Gaibanda', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'KALA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1, 6, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'SIB-BARNAI', 9650, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 2, 6, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'MOHANANDA', 6500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Rohanpur.dfs0|, 0, 1, 'Rohanpur', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'GANGES-EXT', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Pankha.dfs0|, 0, 1, 'Pankha', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'GUMTI', 4000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\Comilla.dfs0|, 0, 1, 'Comilla', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'BEGABATI', 48000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'BHAIRAB_U', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'BHUBANESWAR', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'CHANDANA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'CHITRA', 50000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'DAUDKHALI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'HATIA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'KALIGANGA_U', 5000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'KUMAR', 9000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\wFaridpur.dfs0|, 0, 1, 'wFaridpur', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'KUMARF2', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'KUMARK', 22000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'LINK-3', 10000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.1, 1, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'LINK-4', 10000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.1, 1, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'NABAGANGA_U', 42000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'OLD_PUSSUR', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'SHAHABAZ-1', 21000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\DAULATKHAN-H.dfs0|, 0, 1, 'DAULATKHAN', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'SITALAKHYA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\wFaridpur.dfs0|, 0, 1, 'wFaridpur', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'TENTULIA', 54750, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\DASMUNIA-H.dfs0|, 0, 1, 'DASMUNIA', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'U-SOLMARI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'BALESWAR', 108000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\RAYENDA-H.dfs0|, 0, 1, 'RAYENDA', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'BISHKHALI', 91000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\PATHERGHATA-H.dfs0|, 0, 1, 'PATHERGHATA', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'BURISWAR', 57000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\PATHERGHATA-H.dfs0|, 0, 1, 'PATHERGHATA', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'PUSSUR', 16835, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\MONGLA-H.dfs0|, 0, 1, 'MONGLA', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'ATRAI_L050', 10000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1, 6, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'L-SOLMARI', 7000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.3, 2, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'O_SOMESWARI', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\DURGAPUR-H.dfs0|, 0, 1, 'DURGAPUR', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'O_SOM_LB', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\HDBounds\DURGAPUR-H.dfs0|, 0, 1, 'DURGAPUR', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, 'NAWAGANG', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 3, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, 'ACTIVE_CHELA', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 2, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, 'UPPER_SURMA', 3000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, 'GUMTI', 4000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 10, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, 'UKARATOYA', 41500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 5, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+   EndSect  // BndCndArray
+
+EndSect  // BndCondition
+

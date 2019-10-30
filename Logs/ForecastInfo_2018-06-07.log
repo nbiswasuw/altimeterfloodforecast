@@ -1,0 +1,29 @@
+Boundary generator of Altimetry based Flood Forecasting System of SASWE.
+Forecast Date for generating boundary: 2018-06-07
+Boundary generation started at: 2018-06-07 02:00:00
+Initializing variables and checking for necessary files ...
+Necessary files and folders checked and variables initiated successfully.
+Checking for latest Virtual Station file ...
+Latest JASON 3 Altimeter data available for Ganges River: JA3_IPN_2PdP085_155_20180605_084206_20180605_093819.zip
+Latest JASON 3 Altimeter data available for Brahmaputra River: JA3_IPN_2PdP085_166_20180605_190027_20180605_195640.zip
+Latest JASON 2 Altimeter data available for Ganges River: JA2_IPN_2PdP533_079_20180603_174601_20180603_184156.zip
+Latest JASON 2 Altimeter data available for Brahmaputra River: JA2_IPN_2PdP533_053_20180602_173202_20180602_182757.zip
+Latest Virtual Station file Selected. Downloading the selected file ...
+Latest downloaded file for Ganges: JA3_IPN_2PdP085_155_20180605_084206_20180605_093819.zip
+Latest downloaded file for Brahmaputra: JA3_IPN_2PdP085_166_20180605_190027_20180605_195640.zip
+Unzipping the latest virtual station files for both basins ...
+The selected virtual station file unzipped successfully.
+Virtual Station files are processing to get NC files ...
+Virtual Station selected for Ganges River: JA3155_2018-06-05.txt
+Virtual Station selected for Brahmaputra River: JA3166_2018-06-05.txt
+Virtual Station files are processed successfully.
+Generating forecasted Water Heights at Bahadurabad and Hardinge Bridge ...
+Forecasted Water Heights at Bahadurabad and Hardinge Bridge are generated successfully.
+Downloading in situ water level data from FFWC website ....
+In situ Water Level data downloaded from FFWC website and SQL Database updated successfully.
+Correcting forecasted Water Heights at Bahadurabad Station ...
+Error occurred in boundary correction at Bahadurabad Station. Error: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Last[TSource](IEnumerable`1 source)
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Hardinge Bridge Station ...
+Hardinge Bridge and depended station's forecasts generated successfully.

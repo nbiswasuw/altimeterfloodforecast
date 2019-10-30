@@ -1,0 +1,30 @@
+Boundary generator of Altimetry based Flood Forecasting System of SASWE.
+Forecast Date for generating boundary: 2018-09-22
+Boundary generation started at: 2018-09-22 02:00:01
+Initializing variables and checking for necessary files ...
+Necessary files and folders checked and variables initiated successfully.
+Checking for latest Virtual Station file ...
+Latest JASON 3 Altimeter data available for Ganges River: JA3_IPN_2PdP096_079_20180919_111333_20180919_120946.zip
+Latest JASON 3 Altimeter data available for Brahmaputra River: JA3_IPN_2PdP096_053_20180918_105159_20180918_114812.zip
+Latest JASON 2 Altimeter data available for Ganges River: JA2_IPN_2PdP606_079_20180918_182745_20180918_192340.zip
+Latest JASON 2 Altimeter data available for Brahmaputra River: JA2_IPN_2PdP606_053_20180917_181346_20180917_190941.zip
+Latest Virtual Station file Selected. Downloading the selected file ...
+Latest downloaded file for Ganges: JA3_IPN_2PdP096_079_20180919_111333_20180919_120946.zip
+Latest downloaded file for Brahmaputra: JA3_IPN_2PdP096_053_20180918_105159_20180918_114812.zip
+Unzipping the latest virtual station files for both basins ...
+The selected virtual station file unzipped successfully.
+Virtual Station files are processing to get NC files ...
+Virtual Station selected for Ganges River: JA3079_2018-09-19.txt
+Virtual Station selected for Brahmaputra River: JA3053_2018-09-18.txt
+Virtual Station files are processed successfully.
+Generating forecasted Water Heights at Bahadurabad and Hardinge Bridge ...
+Forecasted Water Heights at Bahadurabad and Hardinge Bridge are generated successfully.
+Downloading in situ water level data from FFWC website ....
+In situ Water Level data from FFWC cannot be downloaded due to an error. Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Bahadurabad Station ...
+Error occurred in boundary correction at Bahadurabad Station. Error: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Last[TSource](IEnumerable`1 source)
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Hardinge Bridge Station ...
+Hardinge Bridge and depended station's forecasts generated successfully.

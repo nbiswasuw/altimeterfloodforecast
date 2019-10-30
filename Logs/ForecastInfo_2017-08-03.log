@@ -1,0 +1,48 @@
+Boundary generator of Altimetry based Flood Forecasting System of SASWE.
+Forecast Date for generating boundary: 2017-08-03
+Boundary generation started at: 2017-08-03 02:00:01
+Initializing variables and checking for necessary files ...
+Necessary files and folders checked and variables initiated successfully.
+Checking for latest Virtual Station file ...
+Latest JASON 3 Altimeter data available for Ganges River: JA3_IPN_2PdP054_079_20170730_001528_20170730_011141.zip
+Latest JASON 3 Altimeter data available for Brahmaputra River: JA3_IPN_2PdP054_053_20170728_235353_20170729_005006.zip
+Latest JASON 2 Altimeter data available for Ganges River: JA2_IPN_2PdP502_079_20170801_225337_20170801_234933.zip
+Latest JASON 2 Altimeter data available for Brahmaputra River: JA2_IPN_2PdP502_053_20170731_223938_20170731_233534.zip
+Latest Virtual Station file Selected. Downloading the selected file ...
+Latest downloaded file for Ganges: JA2_IPN_2PdP502_079_20170801_225337_20170801_234933.zip
+Latest downloaded file for Brahmaputra: JA2_IPN_2PdP502_053_20170731_223938_20170731_233534.zip
+Unzipping the latest virtual station files for both basins ...
+The selected virtual station file unzipped successfully.
+Virtual Station files are processing to get NC files ...
+Virtual Station selected for Ganges River: JA2079_0001-01-01.txt
+Virtual Station selected for Brahmaputra River: JA2053_0001-01-01.txt
+Virtual Station files are processed successfully.
+Generating forecasted Water Heights at Bahadurabad and Hardinge Bridge ...
+No Heights found with Backscatter greater than 30 dB for ganges, taken height corrsponding to Maximum BS.
+Forecasted Water Heights at Bahadurabad and Hardinge Bridge cannot be generated due to an error. Error: System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at SASWEForecast.Program.Main(String[] args)
+Downloading in situ water level data from FFWC website ....
+In situ Water Level data downloaded from FFWC website and SQL Database updated successfully.
+Correcting forecasted Water Heights at Bahadurabad Station ...
+Error occurred in boundary correction at Bahadurabad Station. Error: System.IO.FileNotFoundException: Could not find file 'C:\Users\nbiswas\Desktop\Nishan\SASWE\FFWC_Flood\NewDesign\Preprocess\ForecastHeights\Forecast_brahma_2017-08-03.txt'.
+File name: 'C:\Users\nbiswas\Desktop\Nishan\SASWE\FFWC_Flood\NewDesign\Preprocess\ForecastHeights\Forecast_brahma_2017-08-03.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Hardinge Bridge Station ...
+Hardinge Bridge and depended station's forecasts cannot be generated due to an error. Error: System.IO.FileNotFoundException: Could not find file 'C:\Users\nbiswas\Desktop\Nishan\SASWE\FFWC_Flood\NewDesign\Preprocess\ForecastHeights\Forecast_ganges_2017-08-03.txt'.
+File name: 'C:\Users\nbiswas\Desktop\Nishan\SASWE\FFWC_Flood\NewDesign\Preprocess\ForecastHeights\Forecast_ganges_2017-08-03.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at SASWEForecast.Program.Main(String[] args)

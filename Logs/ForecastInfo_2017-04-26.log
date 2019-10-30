@@ -1,0 +1,9 @@
+Boundary generator of Altimetry based Flood Forecasting System of SASWE.
+Forecast Date for generating boundary: 2017-04-26
+Boundary generation started at: 2017-04-26 15:09:50
+Initializing variables and checking for necessary files ...
+Necessary files and folders checked and variables initiated successfully.
+Correcting forecasted Water Heights at Bahadurabad Station ...
+Bahadurabad and depended station's forecasts generated successfully.
+Correcting forecasted Water Heights at Hardinge Bridge Station ...
+Hardinge Bridge and depended station's forecasts generated successfully.

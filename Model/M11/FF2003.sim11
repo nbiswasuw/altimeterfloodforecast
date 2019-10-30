@@ -1,0 +1,89 @@
+// Created     : 2014-08-28 12:3:46
+// DLL id      : C:\PROGRA~1\COMMON~1\DHI\MikeZero\pfs2004.dll
+// PFS version : Aug 28 2005 15:11:56
+
+[Run11]
+   format_version = 105, 'MIKEZero, 2005', 'N/A', ''
+   Comment = ''
+   [Models]
+      hd = true, false
+      ad = false
+      st = false
+      wq = false, 1, 0
+      rr = true
+      ff = true
+      da = false
+      ice = false
+      SimMode = 0
+      QSS = 0
+   EndSect  // Models
+
+   [Input]
+      nwk = 'FF2003.nwk11'
+      xs = 'FF2003.xns11'
+      bnd = 'FF2003.bnd11'
+      rr = 'FF2003.RR11'
+      hd = 'FF2003.HD11'
+      ad = ''
+      wq = ''
+      st = ''
+      ff = 'FF2003_NOUPD.FF11'
+      rhd = ''
+      rrr = 'Results\FF2003-RR.RES11'
+      da = ''
+      ice = ''
+   EndSect  // Input
+
+   [Simulation]
+      [Simulation_Period]
+         start = 2014, 8, 20, 18, 0, 0
+         end = 2014, 8, 28, 18, 0, 0
+         TimeStepType = 0
+         timestep = 5
+         timestepunit = 2
+         dtFileName = ||
+         dtItemName = ''
+         dtItemNo = 0
+         ddtMin = 1
+         ddtMax = 30
+         idtMinMaxUnit = 2
+         ddtChangeRatio = 1.3
+         bDelB_BFlag = true
+         dDelB_BVal = 0.01
+         dDelB_BLim = 0.01
+         bDelQFlag = false
+         dDelQVal = 1
+         bDelQ_QFlag = true
+         dDelQ_QVal = 0.01
+         dDelQ_QLim = 0.01
+         bDelhFlag = false
+         dDelhVal = 0.01
+         bDelh_hFlag = true
+         dDelh_hVal = 0.01
+         dDelh_hLim = 0.01
+         bCourantFlagHD = false
+         dCourantValHD = 10
+         bCourantFlagAD = true
+         dCourantValAD = 1
+         ST_timestep_multiplier = 1
+         RR_timestep_multiplier = 96
+      EndSect  // Simulation_Period
+
+      [Initial_Conditions]
+         hd = 2, 'Results\FF2003-HD.RES11', false, 2014, 8, 20, 18, 0, 0
+         ad = 0, '', false, 1990, 1, 1, 12, 0, 0
+         st = 0, '', false, 1990, 1, 1, 12, 0, 0
+         rr = 1, 'Results\FF2003-RR.RES11', false, 2014, 8, 20, 18, 0, 0
+      EndSect  // Initial_Conditions
+
+   EndSect  // Simulation
+
+   [Results]
+      hd = 'Results\FF2003-HD.RES11', 12, 0
+      ad = '', 1, 0
+      st = '', 1, 0
+      rr = 'Results\FF2003-RR.RES11', 3, 0
+   EndSect  // Results
+
+EndSect  // Run11
+

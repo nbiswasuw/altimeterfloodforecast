@@ -1,0 +1,52 @@
+Boundary generator of Altimetry based Flood Forecasting System of SASWE.
+Forecast Date for generating boundary: 2018-03-22
+Boundary generation started at: 2018-03-22 02:00:01
+Initializing variables and checking for necessary files ...
+Necessary files and folders checked and variables initiated successfully.
+Checking for latest Virtual Station file ...
+Latest Virtual Station file cannot be downloaded due to an error. Error: System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetResponse()
+   at SASWEForecast.Program.Main(String[] args)
+Unzipping the latest virtual station files for both basins ...
+Error in unzipping downloaded File. Error: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\nbiswas\Desktop\Nishan\SASWE\FFWC_Flood\NewDesign\Preprocess\GranuleData\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName)
+   at SASWEForecast.Program.Main(String[] args)
+Virtual Station files are processing to get NC files ...
+Virtual Station files cannot be processed due to an error. Error: System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at SASWEForecast.Program.Main(String[] args)
+Generating forecasted Water Heights at Bahadurabad and Hardinge Bridge ...
+Forecasted Water Heights at Bahadurabad and Hardinge Bridge cannot be generated due to an error. Error: System.ArgumentOutOfRangeException: startIndex cannot be larger than length of string.
+Parameter name: startIndex
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at SASWEForecast.Program.Main(String[] args)
+Downloading in situ water level data from FFWC website ....
+In situ Water Level data downloaded from FFWC website and SQL Database updated successfully.
+Correcting forecasted Water Heights at Bahadurabad Station ...
+Error occurred in boundary correction at Bahadurabad Station. Error: System.IO.FileNotFoundException: Could not find file 'C:\Users\nbiswas\Desktop\Nishan\SASWE\FFWC_Flood\NewDesign\Preprocess\ForecastHeights\Forecast_brahma_2018-03-22.txt'.
+File name: 'C:\Users\nbiswas\Desktop\Nishan\SASWE\FFWC_Flood\NewDesign\Preprocess\ForecastHeights\Forecast_brahma_2018-03-22.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at SASWEForecast.Program.Main(String[] args)
+Correcting forecasted Water Heights at Hardinge Bridge Station ...
+Hardinge Bridge and depended station's forecasts cannot be generated due to an error. Error: System.IO.FileNotFoundException: Could not find file 'C:\Users\nbiswas\Desktop\Nishan\SASWE\FFWC_Flood\NewDesign\Preprocess\ForecastHeights\Forecast_ganges_2018-03-22.txt'.
+File name: 'C:\Users\nbiswas\Desktop\Nishan\SASWE\FFWC_Flood\NewDesign\Preprocess\ForecastHeights\Forecast_ganges_2018-03-22.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at SASWEForecast.Program.Main(String[] args)
